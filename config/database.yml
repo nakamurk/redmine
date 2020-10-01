@@ -11,9 +11,9 @@
   password: "postgres"
 
 # SQLite3 configuration example
-#production:
-#  adapter: sqlite3
-#  database: db/redmine.sqlite3
+development:
+  adapter: sqlite3
+  database: db/redmine.sqlite3
 
 # SQL Server configuration example
 #production:
