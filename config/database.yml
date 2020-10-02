@@ -3,7 +3,7 @@
 # Line indentation must be 2 spaces (no tabs).
 
 # PostgreSQL configuration example
-#production:
+production:
   adapter: postgresql
   database: redmine
   host: localhost
@@ -14,6 +14,9 @@
 development:
   adapter: sqlite3
   database: db/redmine.sqlite3
+  host: localhost
+  username: sqlite3
+  password: "sqlite3"
 
 # SQL Server configuration example
 #production:
