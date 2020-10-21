@@ -45,8 +45,6 @@ GEM
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
-    acts-as-taggable-on (4.0.0)
-      activerecord (>= 4.0)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
     arel (9.0.0)
@@ -96,7 +94,7 @@ GEM
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
     parallel (1.19.2)
-    parser (2.7.1.5)
+    parser (2.7.2.0)
       ast (~> 2.4.1)
     pg (0.21.0)
     public_suffix (4.0.6)
@@ -143,7 +141,7 @@ GEM
       rbpdf-font (~> 1.19.0)
     rbpdf-font (1.19.1)
     redcarpet (3.5.0)
-    regexp_parser (1.8.1)
+    regexp_parser (1.8.2)
     request_store (1.4.1)
       rack (>= 1.4)
     roadie (4.0.0)
@@ -205,7 +203,6 @@ PLATFORMS
 
 DEPENDENCIES
   actionpack-xml_parser
-  acts-as-taggable-on (~> 4.0)
   bundler (>= 1.5.0)
   capybara (~> 3.25.0)
   csv (~> 3.1.1)
