@@ -75,6 +75,7 @@ GEM
       concurrent-ruby (~> 1.0)
     jaro_winkler (1.5.4)
     json (2.3.1)
+    liquid (2.6.3)
     loofah (2.7.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -141,6 +142,10 @@ GEM
       rbpdf-font (~> 1.19.0)
     rbpdf-font (1.19.1)
     redcarpet (3.5.0)
+    redmine_crm (0.0.54)
+      liquid (< 2.6.4)
+      rails
+      rubyzip
     regexp_parser (1.8.2)
     request_store (1.4.1)
       rack (>= 1.4)
@@ -223,6 +228,7 @@ DEPENDENCIES
   rails_12factor
   rbpdf (~> 1.20.0)
   redcarpet (~> 3.5.0)
+  redmine_crm
   request_store (~> 1.4.1)
   roadie-rails (~> 2.1.0)
   rouge (~> 3.12.0)
